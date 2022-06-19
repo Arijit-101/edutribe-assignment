@@ -82,7 +82,6 @@ function Message() {
 					</div>
 				</div>
 
-				{/* Here */}
 			</div>
 		</div>
 	);

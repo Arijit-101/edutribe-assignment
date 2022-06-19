@@ -5,25 +5,26 @@ import Searchbox from "./Searchbox";
 import Upload from "./Upload";
 
 function Home() {
-	return (
-		<div className='h-[calc(100vh)] w-[calc(100vw-50px)] md:w-5/6 bg-gray-100 overflow-y-auto overflow-x-hidden '>
+    return (
+        <div className='h-[calc(100vh)] w-[calc(100vw-50px)] md:w-5/6 bg-gray-100 overflow-y-auto overflow-x-hidden '>
             <div>
-              <Navbar />  
+                <Navbar />
             </div>
-			
-			<div className='relative top-[-72px] left-[50px]'>
-				<Searchbox />
-			</div>
+
+            <div className='relative top-[-72px] left-[50px]'>
+                <Searchbox />
+            </div>
+
             <div className="relative top-[-450px] left-[575px]">
-                <Upload/>
+                <Upload />
             </div>
 
             <div className="relative top-[-340px] left-[10px] ">
-                <Message/>
+                <Message />
             </div>
 
-		</div>
-	);
+        </div>
+    );
 }
 
 export default Home;

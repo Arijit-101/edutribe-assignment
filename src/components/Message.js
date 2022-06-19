@@ -8,8 +8,8 @@ function Message() {
 			<p className='text-left text-5xl font-bold mx-5 mb-10 '>Message center</p>
 
 			<div className='w-[calc(100%)] h-[calc(100%)]  flex flex-col text-black border-2  rounded-lg   bg-white shadow-2xl'>
-				
-                <div className='w-[calc(100%-40px)] h-[calc(90%)]  flex flex-col text-black border border-dotted border-slate-300 rounded-lg mx-auto my-auto bg-white'>
+
+				<div className='w-[calc(100%-40px)] h-[calc(90%)]  flex flex-col text-black border border-dotted border-slate-300 rounded-lg mx-auto my-auto bg-white'>
 					<p className='border-2 border-dotted border-slate-300 rounded  w-[200px] mx-auto my-5 p-2 font-bold'>
 						Load Conversation
 					</p>
